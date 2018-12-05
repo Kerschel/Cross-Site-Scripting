@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+
+  }
+  body{
+    background: url(https://i.pinimg.com/236x/9f/cd/b8/9fcdb829be18f3c878b0223cb50be573--notebook-wallpaper.jpg);
+  }
+  .wrap {
+    padding-top: 1%;
+    
+  }
+  
+  #main {
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+  }
+  
+  .footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+  } 
+
+  /* input{
+   width:300px;
+  } */
+
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer2{
+    position: fixed;
+    height:10%;
+    right:0;
+    bottom: 0;
+  }
+
+  .left{
+    color: blue;
+  }
+
+  
+  .right{
+    color:brown;
+    
+  } 
+
+
+  .heading{
+    background:#595d64;
+    color:white;
+  }

